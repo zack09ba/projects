@@ -1,0 +1,33 @@
+P{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h1-element{
+  font-family:'Courier New', Courier, monospace;
+}
+
+body {
+  background: linear-gradient(-45deg, black, pink, blue);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+nav { text-align: center; margin: 20px 0; }
+        nav a { margin: 0 10px; text-decoration: none; color: #333; }
+        footer { text-align: center; padding: 20px; margin-top: 20px; border-top: 1px solid #ccc; }
+
+.pic-1{
+  padding: 10px 10px;
+}
